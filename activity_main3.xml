@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/belakang">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".MainActivity3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="List Menu"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/inputname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="17"
+            android:hint="Masukan Nama Lengkap"
+            android:textColorHint="#ffff"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#ffff" />
+
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/okee">
+
+            <CheckBox
+                android:id="@+id/seblakchikuwa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/seblakc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Seblak Chikhuwa"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 10.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahseblakchikuwa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/okee">
+
+            <CheckBox
+                android:id="@+id/seblakdumpling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/seblakd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Seblak Dumpling"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="40dp"
+                android:text="Rp. 10.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahseblakdumpling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/okee">
+
+            <CheckBox
+                android:id="@+id/seblaksosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/seblakl" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Seblak Sosis"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 25.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahseblaksosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/okee">
+
+            <CheckBox
+                android:id="@+id/seblakkomplit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/seblakplit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Seblak Komplit"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 12.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahseblakkomplit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/okee">
+
+            <CheckBox
+                android:id="@+id/seblaktelur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/seblakt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Seblak Telur"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 10.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahseblaktelur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/biru_muda"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="10dp"
+                android:text="Pesan" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#FFFCFC"
+            android:text="pembelian diatas Rp. 100.000 "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FAFAFA"
+            android:text="Mendapat diskon 10% "/>
+    </LinearLayout>
+</ScrollView>
